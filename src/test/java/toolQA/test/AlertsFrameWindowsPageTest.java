@@ -27,7 +27,7 @@ public class AlertsFrameWindowsPageTest extends Utility {
 	@BeforeClass
 	public void StartReport() throws IOException {
 		initilization();
-		
+		System.out.println("demo");
 		ExtentHtmlReporter reports=new ExtentHtmlReporter("./Reports/AlertsFrameWindowsPageTest.html");
 		extend=new ExtentReports();
 		extend.attachReporter(reports);
