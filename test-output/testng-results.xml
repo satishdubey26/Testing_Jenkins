@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-28T13:48:17 IST" name="Suite" finished-at="2021-09-28T13:50:57 IST" duration-ms="160656">
+    <groups>
+    </groups>
+    <test started-at="2021-09-28T13:48:17 IST" name="Test" finished-at="2021-09-28T13:50:57 IST" duration-ms="160656">
+      <class name="toolQA.test.AlertsFrameWindowsPageTest">
+        <test-method is-config="true" signature="StartReport()[pri:0, instance:toolQA.test.AlertsFrameWindowsPageTest@7d64e326]" started-at="2021-09-28T13:49:57 IST" name="StartReport" finished-at="2021-09-28T13:50:03 IST" duration-ms="6336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartReport -->
+        <test-method signature="BrowserWindowsValidation()[pri:1, instance:toolQA.test.AlertsFrameWindowsPageTest@7d64e326]" started-at="2021-09-28T13:50:03 IST" name="BrowserWindowsValidation" finished-at="2021-09-28T13:50:32 IST" duration-ms="29179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserWindowsValidation -->
+        <test-method signature="AlertsValidationa()[pri:2, instance:toolQA.test.AlertsFrameWindowsPageTest@7d64e326]" started-at="2021-09-28T13:50:32 IST" name="AlertsValidationa" finished-at="2021-09-28T13:50:41 IST" duration-ms="8517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AlertsValidationa -->
+        <test-method signature="FramesValidation()[pri:3, instance:toolQA.test.AlertsFrameWindowsPageTest@7d64e326]" started-at="2021-09-28T13:50:41 IST" name="FramesValidation" finished-at="2021-09-28T13:50:47 IST" duration-ms="6639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FramesValidation -->
+        <test-method signature="NestedFramesValidation()[pri:4, instance:toolQA.test.AlertsFrameWindowsPageTest@7d64e326]" started-at="2021-09-28T13:50:47 IST" name="NestedFramesValidation" finished-at="2021-09-28T13:50:50 IST" duration-ms="2607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NestedFramesValidation -->
+        <test-method signature="ModalDialogValidation()[pri:5, instance:toolQA.test.AlertsFrameWindowsPageTest@7d64e326]" started-at="2021-09-28T13:50:50 IST" name="ModalDialogValidation" finished-at="2021-09-28T13:50:57 IST" duration-ms="6663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ModalDialogValidation -->
+        <test-method is-config="true" signature="EndReport()[pri:0, instance:toolQA.test.AlertsFrameWindowsPageTest@7d64e326]" started-at="2021-09-28T13:50:57 IST" name="EndReport" finished-at="2021-09-28T13:50:57 IST" duration-ms="444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndReport -->
+      </class> <!-- toolQA.test.AlertsFrameWindowsPageTest -->
+      <class name="toolQA.test.FormsPageTest">
+        <test-method is-config="true" signature="StartReport()[pri:0, instance:toolQA.test.FormsPageTest@73a2e526]" started-at="2021-09-28T13:49:35 IST" name="StartReport" finished-at="2021-09-28T13:49:41 IST" duration-ms="5715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartReport -->
+        <test-method signature="PracticeFormValidation()[pri:1, instance:toolQA.test.FormsPageTest@73a2e526]" started-at="2021-09-28T13:49:41 IST" name="PracticeFormValidation" finished-at="2021-09-28T13:49:56 IST" duration-ms="14982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PracticeFormValidation -->
+        <test-method is-config="true" signature="EndReport()[pri:0, instance:toolQA.test.FormsPageTest@73a2e526]" started-at="2021-09-28T13:49:56 IST" name="EndReport" finished-at="2021-09-28T13:49:57 IST" duration-ms="310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndReport -->
+      </class> <!-- toolQA.test.FormsPageTest -->
+      <class name="toolQA.test.ElementPageTest">
+        <test-method is-config="true" signature="StartReport()[pri:0, instance:toolQA.test.ElementPageTest@3e30646a]" started-at="2021-09-28T13:48:17 IST" name="StartReport" finished-at="2021-09-28T13:48:23 IST" duration-ms="6498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartReport -->
+        <test-method signature="TextBoxValidation()[pri:1, instance:toolQA.test.ElementPageTest@3e30646a]" started-at="2021-09-28T13:48:23 IST" name="TextBoxValidation" finished-at="2021-09-28T13:48:29 IST" duration-ms="5628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TextBoxValidation -->
+        <test-method signature="CheckBoxValidation()[pri:2, instance:toolQA.test.ElementPageTest@3e30646a]" started-at="2021-09-28T13:48:29 IST" name="CheckBoxValidation" finished-at="2021-09-28T13:48:36 IST" duration-ms="7046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckBoxValidation -->
+        <test-method signature="RadioButtonValidation()[pri:3, instance:toolQA.test.ElementPageTest@3e30646a]" started-at="2021-09-28T13:48:36 IST" name="RadioButtonValidation" finished-at="2021-09-28T13:48:37 IST" duration-ms="650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RadioButtonValidation -->
+        <test-method signature="WebTablesValidation()[pri:4, instance:toolQA.test.ElementPageTest@3e30646a]" started-at="2021-09-28T13:48:37 IST" name="WebTablesValidation" finished-at="2021-09-28T13:48:40 IST" duration-ms="3256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebTablesValidation -->
+        <test-method signature="ButtonValidation()[pri:5, instance:toolQA.test.ElementPageTest@3e30646a]" started-at="2021-09-28T13:48:41 IST" name="ButtonValidation" finished-at="2021-09-28T13:48:43 IST" duration-ms="2736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ButtonValidation -->
+        <test-method signature="LinkValidation()[pri:6, instance:toolQA.test.ElementPageTest@3e30646a]" started-at="2021-09-28T13:48:43 IST" name="LinkValidation" finished-at="2021-09-28T13:49:04 IST" duration-ms="20895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LinkValidation -->
+        <test-method signature="BrokenLinksAndImageVerification()[pri:7, instance:toolQA.test.ElementPageTest@3e30646a]" started-at="2021-09-28T13:49:04 IST" name="BrokenLinksAndImageVerification" finished-at="2021-09-28T13:49:06 IST" duration-ms="1299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrokenLinksAndImageVerification -->
+        <test-method signature="UploadAndDownloadValidation()[pri:8, instance:toolQA.test.ElementPageTest@3e30646a]" started-at="2021-09-28T13:49:06 IST" name="UploadAndDownloadValidation" finished-at="2021-09-28T13:49:15 IST" duration-ms="9490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UploadAndDownloadValidation -->
+        <test-method signature="DynamicPropertiesValidation()[pri:9, instance:toolQA.test.ElementPageTest@3e30646a]" started-at="2021-09-28T13:49:15 IST" name="DynamicPropertiesValidation" finished-at="2021-09-28T13:49:31 IST" duration-ms="15495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DynamicPropertiesValidation -->
+        <test-method is-config="true" signature="EndReport()[pri:0, instance:toolQA.test.ElementPageTest@3e30646a]" started-at="2021-09-28T13:49:31 IST" name="EndReport" finished-at="2021-09-28T13:49:35 IST" duration-ms="4399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndReport -->
+      </class> <!-- toolQA.test.ElementPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
