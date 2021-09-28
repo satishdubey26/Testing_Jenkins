@@ -64,6 +64,7 @@ public class AlertsFrameAndWindows extends Utility {
 	
 	public void Alerts() throws Exception {
 		scrollToElement(Alerts);
+		System.out.print("EDITED");
 		Alerts.click();
 		logger14.log(Status.PASS, " Alert Page Open successfully ");
 		AlterButton.click();
