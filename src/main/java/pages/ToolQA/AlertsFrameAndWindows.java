@@ -27,9 +27,9 @@ public class AlertsFrameAndWindows extends Utility {
 	@FindBy(id="messageWindowButton")
 	WebElement NewWindowMessage;
 	
-	public AlertsFrameAndWindows() {
-		PageFactory.initElements(driver, this);
-	}
+//	public AlertsFrameAndWindows() {
+//		PageFactory.initElements(driver, this);
+//	}
 	
 	public void BrowserWindows() throws Exception{
 		scrollToElement(AlertsFrameWindows);
