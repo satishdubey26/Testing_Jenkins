@@ -68,7 +68,6 @@ public class ElementPage extends Utility {
 		scrollToElement(Element);
 		new WebDriverWait(driver, 60).until(ExpectedConditions.elementToBeClickable(Element));
 		Element.click();
-		System.out.println("hello");
 		logger2.log(Status.PASS, " Element Button Click Succesfully ");
 
 		new WebDriverWait(driver, 60).until(ExpectedConditions.elementToBeClickable(TextBox));
