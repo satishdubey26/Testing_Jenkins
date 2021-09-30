@@ -63,10 +63,12 @@ public class ElementPage extends Utility {
 	@FindBy(xpath="//button[text()='Submit']")
 	WebElement Submit;
 	
+	
 	public void TextBox() throws InterruptedException {
 		scrollToElement(Element);
 		new WebDriverWait(driver, 60).until(ExpectedConditions.elementToBeClickable(Element));
 		Element.click();
+		System.out.println("hello");
 		logger2.log(Status.PASS, " Element Button Click Succesfully ");
 
 		new WebDriverWait(driver, 60).until(ExpectedConditions.elementToBeClickable(TextBox));
