@@ -40,7 +40,7 @@ public class Base {
 	
 	public static void initilization() throws IOException {
 		
-		System.setProperty("webdriver.chrome.driver","C:\\eclipse\\Driver\\chromedriver_win32 (1)\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\eclipse\\Driver\\chromedriver_win32 (2)\\chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 		driver.manage().window().maximize();
