@@ -21,14 +21,14 @@ import utility.ToolQA.Utility;
 public class ElementPageTest extends Utility {
 	ElementPage ep;
 	
-//	@BeforeSuite
+	@BeforeSuite
 	public void setup() throws IOException {
 		initilization();
 	}
 	 
 	@BeforeClass
 	public void StartReport() throws IOException {
-		initilization();
+		//initilization();
 		ExtentHtmlReporter reports=new ExtentHtmlReporter("./Reports/ElementPageTest.html");
 		extend=new ExtentReports();
 		extend.attachReporter(reports);
@@ -99,10 +99,10 @@ public class ElementPageTest extends Utility {
 	@AfterClass
 	public void EndReport() {
 		CloseReport();
-		driver.close();
+	//	driver.close();
 		
 	}
-	//@AfterSuite
+	@AfterSuite
 	public void teardown() {
 		
 		driver.close();

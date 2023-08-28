@@ -429,10 +429,7 @@ public Xls_Reader(String path) {
 			int index = workbook.getSheetIndex(sheetName);
 			if(index==-1){
 				index=workbook.getSheetIndex(sheetName.toUpperCase());
-					if(index==-1)
-						return false;
-					else
-						return true;
+                return index != -1;
 			}
 			else
 				return true;
@@ -488,7 +485,7 @@ public Xls_Reader(String path) {
 		}
 			
 		// to run this on stand alone
-		public static void main(String arg[]) throws IOException{
+		public static void main(String[] arg) throws IOException{
 			
 			//System.out.println(filename);
 			Xls_Reader datatable = null;

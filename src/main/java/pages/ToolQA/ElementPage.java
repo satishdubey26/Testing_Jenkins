@@ -9,6 +9,7 @@ import javax.swing.text.html.HTMLDocument.Iterator;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
@@ -39,6 +40,9 @@ public class ElementPage extends Utility {
 	JavascriptExecutor js = (JavascriptExecutor) driver;
 	Xls_Reader reader=new Xls_Reader("C:\\eclipse\\ToolQA\\Documents\\PersonsAddress.xlsx");
 	
+
+	
+	
 	@FindBy(xpath="//span[text()='Text Box']")
 	WebElement TextBox;
 	
@@ -65,6 +69,7 @@ public class ElementPage extends Utility {
 	
 	
 	public void TextBox() throws InterruptedException {
+	
 		scrollToElement(Element);
 		new WebDriverWait(driver, 60).until(ExpectedConditions.elementToBeClickable(Element));
 		Element.click();
@@ -74,7 +79,8 @@ public class ElementPage extends Utility {
 		new WebDriverWait(driver, 60).until(ExpectedConditions.elementToBeClickable(TextBox));
 		TextBox.click();
 		logger2.log(Status.PASS, " TextBox Button Click Succesfully ");
-
+		
+	
 		FullName.sendKeys(reader.getCellData("ContantDetails", 1, 3));
 		logger2.log(Status.PASS, " Name Entered Succesfully ");
 
@@ -358,11 +364,10 @@ public class ElementPage extends Utility {
 	}
 	
 	@FindBy(xpath="//span[text()='Broken Links - Images']")
-	WebElement BrokenLinksImages;
+	WebElement BrokenLinksImages; 
 	
 	@FindBy(xpath="//img[@src='/images/Toolsqa_1.jpg']")
 	WebElement BrokenImage;
-	
 	@FindBy(xpath="//img[@src='/images/Toolsqa.jpg']")
 	WebElement Image;
 	

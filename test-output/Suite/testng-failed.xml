@@ -3,6 +3,33 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="toolQA.test.ElementPageTest">
+        <methods>
+          <include name="UploadAndDownloadValidation"/>
+          <include name="RadioButtonValidation"/>
+          <include name="TextBoxValidation"/>
+          <include name="WebTablesValidation"/>
+          <include name="EndReport"/>
+          <include name="StartReport"/>
+          <include name="BrokenLinksAndImageVerification"/>
+          <include name="LinkValidation"/>
+          <include name="DynamicPropertiesValidation"/>
+          <include name="setup"/>
+          <include name="ButtonValidation"/>
+          <include name="CheckBoxValidation"/>
+        </methods>
+      </class> <!-- toolQA.test.ElementPageTest -->
+      <class name="toolQA.test.AlertsFrameWindowsPageTest">
+        <methods>
+          <include name="ModalDialogValidation"/>
+          <include name="StartReport"/>
+          <include name="AlertsValidationa"/>
+          <include name="FramesValidation"/>
+          <include name="NestedFramesValidation"/>
+          <include name="EndReport"/>
+          <include name="BrowserWindowsValidation"/>
+        </methods>
+      </class> <!-- toolQA.test.AlertsFrameWindowsPageTest -->
       <class name="toolQA.test.FormsPageTest">
         <methods>
           <include name="StartReport"/>

@@ -22,7 +22,10 @@ import org.openqa.selenium.support.PageFactory;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
+import com.aventstack.extentreports.model.Log;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+
+//import jdk.internal.org.jline.utils.Log;
 
 public class Base {
 	
@@ -40,18 +43,19 @@ public class Base {
 	
 	public static void initilization() throws IOException {
 		
-		System.setProperty("webdriver.chrome.driver","C:\\eclipse\\Driver\\chromedriver_win32 (2)\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\eclipse\\Driver1\\chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		driver.get(getObject("url"));
 		
-		
 	}
 	
+	
+	
 	public static String getObject(String Data) throws IOException {
-		prop=new Properties();
-		InputStream input= new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\utility\\ToolQA\\config.properties");
+		 prop=new Properties();
+		FileInputStream input= new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\utility\\ToolQA\\config.properties");
 		prop.load(input);
 		String data=prop.getProperty(Data);		
 		return data;	
@@ -73,6 +77,8 @@ public class Base {
 		ExtentTest logger1 = extend.createTest(TestName);
 		
 		logger1.log(Status.PASS, " Test Case " +GetName+"  is passed");
+		//Log.debug();
+		
 		
 		extend.flush();
 	

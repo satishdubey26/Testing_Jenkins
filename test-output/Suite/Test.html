@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>14/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>6/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Nov 10 11:22:18 IST 2021</td>
+<td>Started on:</td><td>Mon Aug 28 12:27:55 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>154 seconds (154244 ms)</td>
+<tr><td>Total time:</td><td>141 seconds (141277 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,13 +76,13 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='toolQA.test.FormsPageTest.PracticeFormValidation()'><b>PracticeFormValidation</b><br>Test class: toolQA.test.FormsPageTest</td>
-<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span class=&quot;text&quot;&gt;...&lt;/span&gt; is not clickable at point (134, 357). Other element would receive the click: &lt;div class=&quot;header-text&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=95.0.4638.69)
+<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div aria-hidden=&quot;true&quot; class=&quot; css-tlfecz-indicatorContainer&quot;&gt;...&lt;/div&gt; is not clickable at point (787, 621). Other element would receive the click: &lt;iframe frameborder=&quot;0&quot; src=&quot;https://964aab930504a207afc0d1f407aef948.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html&quot; id=&quot;google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0&quot; title=&quot;3rd party ad content&quot; name=&quot;&quot; scrolling=&quot;no&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=&quot;728&quot; height=&quot;90&quot; data-is-safeframe=&quot;true&quot; sandbox=&quot;allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation&quot; role=&quot;region&quot; aria-label=&quot;Advertisement&quot; tabindex=&quot;0&quot; data-google-container-id=&quot;1&quot; style=&quot;border: 0px; vertical-align: bottom;&quot; data-load-complete=&quot;true&quot;&gt;&lt;/iframe&gt;
+  (Session info: chrome=116.0.5845.111)
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-MN0A3FR&apos;, ip: &apos;192.168.29.188&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
+System info: host: &apos;DESKTOP-MN0A3FR&apos;, ip: &apos;172.19.208.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\rj\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:55775}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9e5f20b0909fa79c9a378d1134b6f629
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\rj\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59150}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c18798f94cb6be6b817cb1d4231b44fa
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -92,23 +92,22 @@ Session ID: 9e5f20b0909fa79c9a378d1134b6f629
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
-	at pages.ToolQA.FormsPage.PracticeForm(FormsPage.java:89)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at pages.ToolQA.FormsPage.PracticeForm(FormsPage.java:126)
 	at toolQA.test.FormsPageTest.PracticeFormValidation(FormsPageTest.java:41)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1698674897", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1698674897'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span class=&quot;text&quot;&gt;...&lt;/span&gt; is not clickable at point (134, 357). Other element would receive the click: &lt;div class=&quot;header-text&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=95.0.4638.69)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 34 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace609825180", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace609825180'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;div aria-hidden=&quot;true&quot; class=&quot; css-tlfecz-indicatorContainer&quot;&gt;...&lt;/div&gt; is not clickable at point (787, 621). Other element would receive the click: &lt;iframe frameborder=&quot;0&quot; src=&quot;https://964aab930504a207afc0d1f407aef948.safeframe.googlesyndication.com/safeframe/1-0-40/html/container.html&quot; id=&quot;google_ads_iframe_/21849154601,22343295815/Ad.Plus-Anchor_0&quot; title=&quot;3rd party ad content&quot; name=&quot;&quot; scrolling=&quot;no&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=&quot;728&quot; height=&quot;90&quot; data-is-safeframe=&quot;true&quot; sandbox=&quot;allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation&quot; role=&quot;region&quot; aria-label=&quot;Advertisement&quot; tabindex=&quot;0&quot; data-google-container-id=&quot;1&quot; style=&quot;border: 0px; vertical-align: bottom;&quot; data-load-complete=&quot;true&quot;&gt;&lt;/iframe&gt;
+  (Session info: chrome=116.0.5845.111)
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;DESKTOP-MN0A3FR&apos;, ip: &apos;192.168.29.188&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
+System info: host: &apos;DESKTOP-MN0A3FR&apos;, ip: &apos;172.19.208.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_281&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\rj\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:55775}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9e5f20b0909fa79c9a378d1134b6f629
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\rj\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59150}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c18798f94cb6be6b817cb1d4231b44fa
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
@@ -117,17 +116,17 @@ Session ID: 9e5f20b0909fa79c9a378d1134b6f629
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at jdk.internal.reflect.GeneratedMethodAccessor24.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at sun.reflect.GeneratedMethodAccessor30.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
-	at pages.ToolQA.FormsPage.PracticeForm(FormsPage.java:89)
+	at com.sun.proxy.$Proxy12.click(Unknown Source)
+	at pages.ToolQA.FormsPage.PracticeForm(FormsPage.java:126)
 	at toolQA.test.FormsPageTest.PracticeFormValidation(FormsPageTest.java:41)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
 	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
 	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
@@ -136,7 +135,7 @@ Session ID: 9e5f20b0909fa79c9a378d1134b6f629
 	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
 	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
 	at org.testng.TestRunner.privateRun(TestRunner.java:794)
 	at org.testng.TestRunner.run(TestRunner.java:596)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
@@ -153,8 +152,8 @@ Session ID: 9e5f20b0909fa79c9a378d1134b6f629
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>3</td>
-<td>toolQA.test.FormsPageTest@73a2e526</td></tr>
+<td>11</td>
+<td>toolQA.test.FormsPageTest@8c3b9d</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -164,75 +163,35 @@ Session ID: 9e5f20b0909fa79c9a378d1134b6f629
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='toolQA.test.ElementPageTest.UploadAndDownloadValidation()'><b>UploadAndDownloadValidation</b><br>Test class: toolQA.test.ElementPageTest</td>
+<td title='toolQA.test.AlertsFrameWindowsPageTest.AlertsValidationa()'><b>AlertsValidationa</b><br>Test class: toolQA.test.AlertsFrameWindowsPageTest</td>
 <td></td>
 <td>9</td>
-<td>toolQA.test.ElementPageTest@3e30646a</td></tr>
-<tr>
-<td title='toolQA.test.ElementPageTest.ButtonValidation()'><b>ButtonValidation</b><br>Test class: toolQA.test.ElementPageTest</td>
-<td></td>
-<td>2</td>
-<td>toolQA.test.ElementPageTest@3e30646a</td></tr>
+<td>toolQA.test.AlertsFrameWindowsPageTest@1190200a</td></tr>
 <tr>
 <td title='toolQA.test.AlertsFrameWindowsPageTest.NestedFramesValidation()'><b>NestedFramesValidation</b><br>Test class: toolQA.test.AlertsFrameWindowsPageTest</td>
 <td></td>
 <td>2</td>
-<td>toolQA.test.AlertsFrameWindowsPageTest@7d64e326</td></tr>
-<tr>
-<td title='toolQA.test.ElementPageTest.BrokenLinksAndImageVerification()'><b>BrokenLinksAndImageVerification</b><br>Test class: toolQA.test.ElementPageTest</td>
-<td></td>
-<td>1</td>
-<td>toolQA.test.ElementPageTest@3e30646a</td></tr>
-<tr>
-<td title='toolQA.test.ElementPageTest.DynamicPropertiesValidation()'><b>DynamicPropertiesValidation</b><br>Test class: toolQA.test.ElementPageTest</td>
-<td></td>
-<td>15</td>
-<td>toolQA.test.ElementPageTest@3e30646a</td></tr>
-<tr>
-<td title='toolQA.test.ElementPageTest.WebTablesValidation()'><b>WebTablesValidation</b><br>Test class: toolQA.test.ElementPageTest</td>
-<td></td>
-<td>3</td>
-<td>toolQA.test.ElementPageTest@3e30646a</td></tr>
-<tr>
-<td title='toolQA.test.ElementPageTest.CheckBoxValidation()'><b>CheckBoxValidation</b><br>Test class: toolQA.test.ElementPageTest</td>
-<td></td>
-<td>7</td>
-<td>toolQA.test.ElementPageTest@3e30646a</td></tr>
-<tr>
-<td title='toolQA.test.AlertsFrameWindowsPageTest.AlertsValidationa()'><b>AlertsValidationa</b><br>Test class: toolQA.test.AlertsFrameWindowsPageTest</td>
-<td></td>
-<td>8</td>
-<td>toolQA.test.AlertsFrameWindowsPageTest@7d64e326</td></tr>
-<tr>
-<td title='toolQA.test.ElementPageTest.RadioButtonValidation()'><b>RadioButtonValidation</b><br>Test class: toolQA.test.ElementPageTest</td>
-<td></td>
-<td>0</td>
-<td>toolQA.test.ElementPageTest@3e30646a</td></tr>
+<td>toolQA.test.AlertsFrameWindowsPageTest@1190200a</td></tr>
 <tr>
 <td title='toolQA.test.AlertsFrameWindowsPageTest.BrowserWindowsValidation()'><b>BrowserWindowsValidation</b><br>Test class: toolQA.test.AlertsFrameWindowsPageTest</td>
 <td></td>
-<td>29</td>
-<td>toolQA.test.AlertsFrameWindowsPageTest@7d64e326</td></tr>
+<td>30</td>
+<td>toolQA.test.AlertsFrameWindowsPageTest@1190200a</td></tr>
 <tr>
 <td title='toolQA.test.AlertsFrameWindowsPageTest.FramesValidation()'><b>FramesValidation</b><br>Test class: toolQA.test.AlertsFrameWindowsPageTest</td>
 <td></td>
-<td>6</td>
-<td>toolQA.test.AlertsFrameWindowsPageTest@7d64e326</td></tr>
-<tr>
-<td title='toolQA.test.ElementPageTest.LinkValidation()'><b>LinkValidation</b><br>Test class: toolQA.test.ElementPageTest</td>
-<td></td>
-<td>20</td>
-<td>toolQA.test.ElementPageTest@3e30646a</td></tr>
+<td>7</td>
+<td>toolQA.test.AlertsFrameWindowsPageTest@1190200a</td></tr>
 <tr>
 <td title='toolQA.test.AlertsFrameWindowsPageTest.ModalDialogValidation()'><b>ModalDialogValidation</b><br>Test class: toolQA.test.AlertsFrameWindowsPageTest</td>
 <td></td>
-<td>6</td>
-<td>toolQA.test.AlertsFrameWindowsPageTest@7d64e326</td></tr>
+<td>7</td>
+<td>toolQA.test.AlertsFrameWindowsPageTest@1190200a</td></tr>
 <tr>
-<td title='toolQA.test.ElementPageTest.TextBoxValidation()'><b>TextBoxValidation</b><br>Test class: toolQA.test.ElementPageTest</td>
+<td title='toolQA.test.WidgetsPageTest.Slider_Bar_test()'><b>Slider_Bar_test</b><br>Test class: toolQA.test.WidgetsPageTest</td>
 <td></td>
-<td>5</td>
-<td>toolQA.test.ElementPageTest@3e30646a</td></tr>
+<td>35</td>
+<td>toolQA.test.WidgetsPageTest@4c39bec8</td></tr>
 </table><p>
 </body>
 </html>
