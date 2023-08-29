@@ -68,6 +68,7 @@ public class ElementPageTest extends Utility {
 	public void WebTablesValidation() {
 		ep.WebTables();
 		ep.WebTablesSearchAndEdit();
+		//Added blank line
 	}
 		
 	@Test(priority=5)

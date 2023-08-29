@@ -34,6 +34,7 @@ public class WidgetsPageTest extends Utility {
 	
 	@Test(priority=2)
 	public void Slider_Bar_test() throws Exception {
+	
 		wp.slider();
 	}
 	

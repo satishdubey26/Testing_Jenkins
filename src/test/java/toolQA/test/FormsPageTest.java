@@ -34,6 +34,7 @@ public class FormsPageTest extends Utility {
 		extend.attachReporter(reports);
 		fp=new FormsPage();
 		logger1=extend.createTest("PracticeForm");
+		//Added line with comment
 		}
 
 	@Test(priority=1)

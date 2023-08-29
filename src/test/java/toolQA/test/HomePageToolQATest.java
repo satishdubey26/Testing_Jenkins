@@ -42,6 +42,7 @@ public class HomePageToolQATest extends Base {
 	@Test(priority=2)
 	public void Test1() {
 		System.out.println("test is passed");
+		
 	}
 	
 	@AfterClass
