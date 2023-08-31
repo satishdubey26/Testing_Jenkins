@@ -24,12 +24,13 @@
 		<!-- <dependency> <groupId>junit</groupId> <artifactId>junit</artifactId> 
 			<version>4.11</version> <scope>test</scope> </dependency> -->
 
-		<dependency>
-			<groupId>org.testng</groupId>
-			<artifactId>testng</artifactId>
-			<version>6.14.3</version>
-			<scope>test</scope>
-		</dependency>
+	<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.8.0</version>
+</dependency>
+
 
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
@@ -96,7 +97,7 @@
 				<plugin>
 					<artifactId>maven-surefire-plugin</artifactId>
 					<version>2.22.1</version>
-						<configuration>
+						 <configuration>
 							<suiteXmlFiles>
 								<suiteXmlFile>C:\eclipse\ToolQA\testng.xml</suiteXmlFile>
 							</suiteXmlFiles>
